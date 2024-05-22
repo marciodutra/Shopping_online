@@ -42,7 +42,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 				//here we are destroying user cookie
 				setcookie("product_list","",strtotime("-1 day"),"/");
 				//if user is logging from after cart page we will send cart_login
-				echo "cart_login";
+				echo "carrinho_login";
 				
 				
 				exit();
@@ -91,13 +91,13 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 
 
                     //if user is login from page we will send login_success
-                    echo "login_success";
+                    echo "Login_sucesso";
 
                     echo "<script> location.href='admin/add_products.php'; </script>";
                     exit;
 
                 }else{
-                    echo "<span style='color:red;'>Please register before login..!</span>";
+                    echo "<span style='color:red;'>Por favor registre-se antes de fazer login..!</span>";
                     exit();
                 }
     

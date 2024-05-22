@@ -3,11 +3,11 @@
 
 <a href="https://www.buymeacoffee.com/puneethreddyhc" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="195" height="55"></a>
 
-> ## Updated project with extra Features like WISHLIST, List Orders, add Reviews, updated routing, resolved search bug is available for Premium 
+
 
 [![Youtube Video](https://img.youtube.com/vi/gLwfj67GI8A/0.jpg)](https://youtu.be/gLwfj67GI8A)
 
-<h3>Things I code with</h3>
+<h3>Códigos utilizados</h3>
 <p>
   <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
   <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -31,7 +31,7 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   
 </p>
-<h1>Projects We develop</h1>
+<h1>Projetos que desenvolvemos</h1>
 
 <ul>
 	<li><b>Vue JS</b></li>
@@ -43,55 +43,53 @@
 	<li><b>React JS</b></li>
 	<li><b>AI/ML</b></li>
 </ul>
-<h2> Projects with installation support and code explaination for Premium contact gmail: puneethreddy951@gmail.com or visit :<a href="http://www.projectswall.com/">Projects Wall</a></h2>
+<h2>Projetos com suporte de instalação e explicação de código para Premium entre em contato com gmail: puneethreddy951@gmail.com ou visite:<a href="http://www.projectswall.com/">Mural de Projetos</a></h2>
+# Instalação
 
-# Installation
+1. Instale o XAMPP ou WAMPP.
 
-1. Install XAMPP or WAMPP.
+2. Abra o painel de controle do XAMPP e inicie [apache] e [mysql].
 
-2. Open XAMPP Control panal and start [apache] and [mysql] .
-
-3. Download project from github(https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git)  
-    OR follow gitbash commands
+3. Baixe o projeto do github (https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git)
+    OU siga os comandos do gitbash
     
     i>cd C:\\xampp\htdocs\
     
-    ii>git clone https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git
+    ii> clone git https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git
     
-4. extract files in C:\\xampp\htdocs\.
+4. extraia os arquivos em C:\\xampp\htdocs\.
 
-5. open link localhost/phpmyadmin
+5. abra o link localhost/phpmyadmin
 
-6. click on new at side navbar.
+6. clique em novo na barra de navegação lateral.
 
-7. give a database name as (onlineshop) hit on create button.
+7. Dê um nome de banco de dados como (loja online), clique no botão criar.
 
-8. after creating database name click on import.
+8. após criar o nome do banco de dados clique em importar.
 
-9. browse the file in directory[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
+9. navegue no arquivo no diretório[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
 
-10. after importing successfully.
+10. após importar com sucesso.
 
-11. open any browser and type http://localhost/online-shopping-system-with-advanced-admin-page-master.
+11.abra qualquer navegador e digite http://localhost/online-shopping-system-with-advanced-admin-page-master.
 
-12. first register and then login
+12. primeiro registre-se e depois faça login
 
-13. admin login details  Email=admin@gmail.com or username = admin and Password=123456789.
-
-## If you like my project 
-Bye me Cup of coffee
+13. detalhes de login do administrador Email=admin@gmail.com ou nome de usuário = admin e senha=123456789.
 
 
-## visit my other repository with different admin pages with below link
+
+
+## visite meu outro repositório com diferentes páginas de administração com o link abaixo
 https://github.com/PuneethReddyHC/online-shopping-system-advanced
 
 https://github.com/PuneethReddyHC/event-management
 
-##  If you like my project hit a star button
+## Se você gostou do meu projeto, aperte um botão de estrela
 
 
 
-# Screenshots
+# Capturas de tela
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/adduser.png)
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/adminproductadd.png)
 ![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/manageuser.png)
@@ -116,7 +114,7 @@ https://github.com/PuneethReddyHC/event-management
 
 
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contribuindo
+Solicitações pull são bem-vindas. Para mudanças importantes, abra primeiro uma edição para discutir o que você gostaria de mudar.
 
-Please make sure to update tests as appropriate.
+Certifique-se de atualizar os testes conforme apropriado.

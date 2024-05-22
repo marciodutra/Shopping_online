@@ -1,7 +1,8 @@
 <?php
-#this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["uid"])
-#if below statment return true then we will send user to their profile.php page
-//in action.php page if user click on "ready to checkout" button that time we will pass data in a form from action.php page
+#esta é a página do formulário de login, se o usuário já estiver logado, não permitiremos que o usuário acesse esta página executando isset($_SESSION["uid"])
+#se a declaração abaixo retornar verdadeira, enviaremos o usuário para sua página profile.php
+//na página action.php se o usuário clicar no botão "pronto para finalizar a compra", passaremos os dados em um formulário da página action.php
+
 if(isset($_SESSION["uid"])){
 	header('Location:index.php');
 }
@@ -18,7 +19,7 @@ if (isset($_POST["login_user_with_product"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Login Page</title>
+<title>Página de login</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -136,7 +137,7 @@ white-space: nowrap;
 	</style>
 </head>
 	<body style="background-color: #999999;">
-    <div id="toast"><div id="desc"> login desc</div></div>
+    <div id="toast"><div id="desc"> Descrição de login</div></div>
 		<div class="limiter">
 		<div class="container-login100">
 		
@@ -147,11 +148,11 @@ white-space: nowrap;
 		</span>
 		<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
 		<span class="label-input100">Email</span>
-		<input class="input100" type="email" name="email" placeholder="Email addess...">
+		<input class="input100" type="email" name="email" placeholder="exemplo@exemplo.com...">
 		<span class="focus-input100"></span>
 		</div>
 		<div class="wrap-input100 validate-input" data-validate="Password is required">
-		<span class="label-input100">Password</span>
+		<span class="label-input100">Senha</span>
 		<input class="input100" type="password" name="password" placeholder="*************">
 		<span class="focus-input100"></span>
 		</div>
@@ -159,10 +160,10 @@ white-space: nowrap;
 		<div class="contact100-form-checkbox">
 		<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
 		<label class="label-checkbox100" for="ckb1">
-		<span class="txt1">
-		I agree to the
+		<span class="txt1">		
+		Estou de acordo com
 		<a href="#" class="txt2 hov1">
-		Terms of User
+		Termos de usuário
 		</a>
 		</span>
 		</label>
@@ -172,15 +173,15 @@ white-space: nowrap;
 		<div class="wrap-login100-form-btn">
 		<div class="login100-form-bgbtn"></div>
 		<button class="login100-form-btn" type="submit">
-		Sign in
+		Entrar
 		</button>
 		</div>
-		<a href="signup_form.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
-		Sign up
+		<a href="signup_form.php" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">		
+		Inscrever-se
 		<i class="fa fa-long-arrow-right m-l-5"></i>
 		</a>
-		<a href="index.php" class="dis-block txt3 hov1 p-r-30 p-t-40 p-b-10 p-l-150">
-		Skip SignIn
+		<a href="index.php" class="dis-block txt3 hov1 p-r-30 p-t-40 p-b-10 p-l-150">		
+		Pular login
 		<i class="fa fa-long-arrow-right m-l-5"></i>
 		</a>
 		</div>

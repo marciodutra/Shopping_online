@@ -98,7 +98,7 @@ white-space: nowrap;
     to {bottom: 60px; opacity: 0;}
 }
 	</style>
-		<div id="toast"><div id="desc"> login desc</div></div>
+		<div id="toast"><div id="desc">Descrição de login</div></div>
 			<!-- top footer -->
 			<div class="section">
 				<!-- container -->
@@ -107,12 +107,12 @@ white-space: nowrap;
 					<div class="row">
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">About Us</h3>
-								<p>This is my Small Database Management System mini project</p>
+								<h3 class="footer-title">Sobre nós</h3>
+								<p>Este é o meu miniprojeto de sistema de gerenciamento de banco de dados pequeno</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>New York ,Kumbalagodu</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+1-12344465767</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>puneethreddy951@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Porto Alegre ,RS</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>51 994690210</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>marciodutra@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -127,20 +127,20 @@ white-space: nowrap;
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">supportRdddyHC</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Márcio Dutra <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">DEV. Fulstack</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
+								<h3 class="footer-title">Categorias</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Women</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="#">Celulares</a></li>
+									<li><a href="#">Homem</a></li>
+									<li><a href="#">Mulher</a></li>
+									<li><a href="#">Infantil</a></li>
+									<li><a href="#">Acessórios</a></li>
 								</ul>
 							</div>
 						</div>
@@ -189,14 +189,14 @@ white-space: nowrap;
 		$('.block2-btn-addcart').each(function(){
 			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
 			$(this).on('click', function(){
-				swal(nameProduct, "is added to cart !", "success");
+				swal(nameProduct, "Foi adicionado ao carrinho!", "sucesso");
 			});
 		});
 
 		$('.block2-btn-addwishlist').each(function(){
 			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
 			$(this).on('click', function(){
-				swal(nameProduct, "is added to wishlist !", "success");
+				swal(nameProduct, "Foi adicionado à lista de desejos!", "sucesso");
 			});
 		});
 	</script>

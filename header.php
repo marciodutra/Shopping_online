@@ -11,7 +11,7 @@ session_start();
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Online Shopping</title>
+		<title>Compras online</title>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet"/>
@@ -122,9 +122,9 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +1-12344465767</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>New York</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> 51 994690210</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> marciodutra@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Porto Alegre</a></li>
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
@@ -138,11 +138,11 @@ session_start();
                                 
                                 echo '
                                <div class="dropdownn">
-                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI '.$row["first_name"].'</a>
+                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> OI '.$row["first_name"].'</a>
 								  <div class="dropdownn-content">
-								  	<a href="myorders.php"  ><i class="fa fa-shopping-basket" aria-hidden="true"></i>My Order</a>
-                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
-                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
+								  	<a href="myorders.php"  ><i class="fa fa-shopping-basket" aria-hidden="true"></i>Meus pedidos</a>
+                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>Meu perfil</a>
+                                    <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Sair</a>
                                     
                                   </div>
                                 </div>';
@@ -150,11 +150,11 @@ session_start();
                             }else{ 
                                 echo '
                                 <div class="dropdownn">
-                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> My Account</a>
+                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> Minha conta</a>
 								  <div class="dropdownn-content">
 								  	<a href="admin/login.php" ><i class="fa fa-user" aria-hidden="true" ></i>Admin</a>
-                                    <a href="signin_form.php"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
-                                    <a href="signup_form.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+                                    <a href="signin_form.php"><i class="fa fa-sign-in" aria-hidden="true" ></i>Logar</a>
+                                    <a href="signup_form.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Registrar</a>
                                     
                                   </div>
                                 </div>';
@@ -195,12 +195,12 @@ session_start();
 							<div class="header-search">
 								<form onsubmit="return false">
 									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										<option value="0">Categorias</option>
+										<option value="1">Homem</option>
+										<option value="1">Mulher </option>
 									</select>
-									<input class="input" id="search" type="text" placeholder="Search here">
-									<button id="search_btn"   class="search-btn">Search</button>
+									<input class="input" id="search" type="text" placeholder="Pesquise aqui">
+									<button id="search_btn"   class="search-btn">Pesquisa</button>
 								</form>
 							</div>
 						</div>
@@ -215,7 +215,7 @@ session_start();
 								<div>
 									<a href="wishlist.php">
 										<i class="fa fa-heart-o"></i>
-										<span>Your Wishlist</span>
+										<span>Favoritos</span>
 										<div id="wishlist-badge" class="qty">0</div>
 									</a>
 								</div>
@@ -223,7 +223,7 @@ session_start();
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
+										<span>Seu carrinho</span>
 										<div class="badge qty">0</div>
 									</a>
 									<div class="cart-dropdown"  >
@@ -233,7 +233,7 @@ session_start();
 										</div>
 										
 										<div class="cart-btns">
-												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  edit cart</a>
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  editar carrinho</a>
 											
 										</div>
 									</div>
@@ -263,21 +263,21 @@ session_start();
 		<nav id='navigation'>
 			<!-- container -->
 			<div class="container" id="get_category_home">
-				<!-- <div id="responsive-nav">
+				 <div id="responsive-nav">
 						
 					<ul class="main-nav nav navbar-nav">
 						<li class="active"><a href="index.php">Home</a></li>
-						<li class="category" cid="1"><a href="store.php">Electronics</a></li>
-						<li class="category" cid="2"><a href="store.php">Ladies Wears</a></li>
-						<li class="category" cid="3"><a href="store.php">Mens Wear</a></li>
-						<li class="category" cid="4"><a href="store.php">Kids Wear</a></li>
-						<li class="category" cid="5"><a href="store.php">Furnitures</a></li>
-						<li class="category" cid="6"><a href="store.php">Home Appliances</a></li>
-						<li class="category" cid="7"><a href="store.php">Electronics Gadgets</a></li>
+						<li class="category" cid="1"><a href="store.php">Eletronicos</a></li>
+						<li class="category" cid="2"><a href="store.php">Roupas femininas</a></li>
+						<li class="category" cid="3"><a href="store.php">Roupas masculinas</a></li>
+						<li class="category" cid="4"><a href="store.php">Roupas infantis</a></li>
+						<li class="category" cid="5"><a href="store.php">Móveis</a></li>
+						<li class="category" cid="6"><a href="store.php">Eletrodomésticos</a></li>
+						<li class="category" cid="7"><a href="store.php">Dispositivos eletrônicos</a></li>
 					
 					</ul>
 						
-				</div> -->
+				</div> 
 			</div>
 			<!-- /container -->
 		</nav>

@@ -24,13 +24,13 @@ if(isset($_POST["categoryhome"])){
 							}
 						}
 
-						// <li><a href='electronics.php'>Electronics</a></li>
-						// <li><a href='ladies_wears.php'>Ladies Wears</a></li>
-						// <li><a href='mens_wear.php'>Mens Wear</a></li>
-						// <li><a href='kids_wear.php'>Kids Wear</a></li>
-						// <li><a href='furnitures.php'>Furnitures</a></li>
-						// <li><a href='home_appliances.php'>Home Appliances</a></li>
-						// <li><a href='electronics_gadgets.php'>Electronics Gadgets</a></li>
+						// <li><a href='electronics.php'>Eletronicos</a></li>
+						// <li><a href='ladies_wears.php'>Roupas femininas</a></li>
+						// <li><a href='mens_wear.php'>Roupas masculinas</a></li>
+						// <li><a href='kids_wear.php'>Roupas infantis</a></li>
+						// <li><a href='furnitures.php'>Móveis</a></li>
+						// <li><a href='home_appliances.php'>Eletrodomésticos</a></li>
+						// <li><a href='electronics_gadgets.php'>Dispositivos eletrônicos</a></li>
                     
 				 echo"</ul>
 					<!-- /NAV -->
@@ -127,7 +127,7 @@ if(isset($_POST["gethomeProduct"])){
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>NOVO</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -157,13 +157,13 @@ if(isset($_POST["gethomeProduct"])){
 										}
 										echo "</div>
 										<div class='product-btns'>
-											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>add to wishlist</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>add to compare</span></button>
-											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
+											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Adicionar a lista de desejos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Adicionar para comparar</span></button>
+											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>Olhada rápida</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i>Adicionar ao carrinho</button>
 									</div>
 								</div>
                                 </div>

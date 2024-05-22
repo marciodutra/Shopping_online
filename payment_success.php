@@ -40,7 +40,7 @@ if (isset($_GET["st"])) {
 					<html>
 						<head>
 							<meta charset="UTF-8">
-							<title>Khan Store</title>
+							<title>Loja Khan</title>
 							<link rel="stylesheet" href="css/bootstrap.min.css"/>
 							<script src="js/jquery2.js"></script>
 							<script src="js/bootstrap.min.js"></script>
@@ -53,11 +53,11 @@ if (isset($_GET["st"])) {
 						<div class="navbar navbar-inverse navbar-fixed-top">
 							<div class="container-fluid">	
 								<div class="navbar-header">
-									<a href="#" class="navbar-brand">Khan Store</a>
+									<a href="#" class="navbar-brand">Loja Khan</a>
 								</div>
 								<ul class="nav navbar-nav">
 									<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-									<li><a href="profile.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+									<li><a href="profile.php"><span class="glyphicon glyphicon-modal-window"></span>Produto</a></li>
 								</ul>
 							</div>
 						</div>
@@ -72,12 +72,12 @@ if (isset($_GET["st"])) {
 									<div class="panel panel-default">
 										<div class="panel-heading"></div>
 										<div class="panel-body">
-											<h1>Thankyou </h1>
+											<h1>Obrigado </h1>
 											<hr/>
-											<p>Hello <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Your payment process is 
-											successfully completed and your Transaction id is <b><?php echo $trx_id; ?></b><br/>
-											you can continue your Shopping <br/></p>
-											<a href="index.php" class="btn btn-success btn-lg">Continue Shopping</a>
+											<p>Olá <?php echo "<b>".$_SESSION["name"]."</b>"; ?>,Seu processo de pagamento é
+											concluída com sucesso e seu ID de transação é <b><?php echo $trx_id; ?></b><br/>
+											você pode continuar suas compras <br/></p>
+											<a href="index.php" class="btn btn-success btn-lg">Continue comprando</a>
 										</div>
 										<div class="panel-footer"></div>
 									</div>

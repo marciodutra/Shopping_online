@@ -17,7 +17,7 @@ if (isset($_POST["review"])) {
 			echo "
 				<div class='alert alert-danger'>
 					<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-					<b>Multiple reviews are not Allowed</b>
+					<b>Várias avaliações não são permitidas</b>
 				</div>
 			";
 			exit();
@@ -27,11 +27,11 @@ if (isset($_POST["review"])) {
 			'$review','$datetime', '$rating')";
 			
 			if(mysqli_query($con,$sql)){
-				echo "Thanks for Better reach ";
+				echo "Obrigado pelo melhor alcance ";
 				echo "<script> location.href='product.php?q=$product_id'; </script>";
 				exit;
 			}else {
-				echo "something went wrong";
+				echo "Algo deu errado";
 			}
 		}
 	
@@ -40,57 +40,3 @@ if (isset($_POST["review"])) {
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -153,7 +153,7 @@ if(isset($_POST["review_action"])){
                     <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
                 </ul>';
             }else{
-                echo'<p>no Reviews yet be the first person to rate the product</p>';
+                echo'<p>Sem comentários ainda seja a primeira pessoa a avaliar o produto</p>';
             }
             
         echo'</div>
@@ -183,7 +183,7 @@ if(isset($_POST["rating_reviews"])){
                     }
                 echo'
             </div>
-            <a class="review-link" href="#review-form">'.$r_count.' Review(s) | Add your review</a>
+            <a class="review-link" href="#review-form">'.$r_count.' Revisão(ões) | Adicione seu comentário</a>
             ';
             }
     

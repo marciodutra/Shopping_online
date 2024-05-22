@@ -37,11 +37,11 @@
     <!-- Left and right controls -->
     <a class="left carousel-control _26sdfg" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only" >Previous</span>
+      <span class="sr-only" >Anterior</span>
     </a>
     <a class="right carousel-control _26sdfg" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
+      <span class="sr-only">Próximo</span>
     </a>
   </div>
 </div>
@@ -65,7 +65,7 @@
 							</div>
 							<div class="shop-body">
 								<h3>Laptop<br>Collection</h3>
-								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=78" class="cta-btn">Compre agora <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>
@@ -78,8 +78,8 @@
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
-								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Accessorios<br>Collection</h3>
+								<a href="product.php?p=72" class="cta-btn">Compre agora <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>
@@ -93,7 +93,7 @@
 							</div>
 							<div class="shop-body">
 								<h3>Cameras<br>Collection</h3>
-								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=79" class="cta-btn">Compre agora <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
                             </div></a>
 					</div>
@@ -117,13 +117,13 @@
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h3 class="title">New Products</h3>
+							<h3 class="title">Novos Produtos</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
 									<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
 									<li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
 									<li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-									<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+									<li><a data-toggle="tab" href="#tab1">Accessorios</a></li>
 								</ul>
 							</div>
 						</div>
@@ -165,13 +165,13 @@
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>NOVO</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>R$990.00</del></h4>
 										<div class='product-rating'>";
 										$rating_query = "SELECT ROUND(AVG(rating),1) AS avg_rating  FROM reviews WHERE product_id='$pro_id '";
 										$run_review_query = mysqli_query($con,$rating_query);
@@ -195,13 +195,13 @@
 										}
 										echo "</div>
 										<div class='product-btns'>
-											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>add to wishlist</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>add to compare</span></button>
-											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
+											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Adicionar a lista de desejos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Adicionar para comparar</span></button>
+											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>Olhada rápida</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i>Adicionar ao carrinho</button>
 									</div>
 								</div>
                                
@@ -247,31 +247,31 @@
 								<li>
 									<div>
 										<h3>02</h3>
-										<span>Days</span>
+										<span>Dias</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>10</h3>
-										<span>Hours</span>
+										<span>Horas</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>34</h3>
-										<span>Mins</span>
+										<span>Minutos</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>60</h3>
-										<span>Secs</span>
+										<span>Segundos</span>
 									</div>
 								</li>
 							</ul>
-							<h2 class="text-uppercase">hot deal this week</h2>
-							<p>New Collection Up to 50% OFF</p>
-							<a class="primary-btn cta-btn" href="store.php">Shop now</a>
+							<h2 class="text-uppercase">Oferta quente esta semana</h2>
+							<p>Nova coleção com até 50% OFF</p>
+							<a class="primary-btn cta-btn" href="store.php">Compre agora</a>
 						</div>
 					</div>
 				</div>
@@ -292,13 +292,13 @@
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h3 class="title">Top selling</h3>
+							<h3 class="title">Mais vendido</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
-									<li><a data-toggle="tab" href="#tab2">Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">T-Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">Pants</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab2">Formais</a></li>
+									<li><a data-toggle="tab" href="#tab2">Camisas</a></li>
+									<li><a data-toggle="tab" href="#tab2">Camisetas</a></li>
+									<li><a data-toggle="tab" href="#tab2">Calça</a></li>
 								</ul>
 							</div>
 						</div>
@@ -340,7 +340,7 @@
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											<span class='new'>NOVO</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
@@ -370,13 +370,13 @@
 										}
 										echo "</div>
 										<div class='product-btns'>
-											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>add to wishlist</span></button>
-											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>add to compare</span></button>
-											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>quick view</span></button>
+											<button pid='$pro_id' id='wishlist' class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>Adicionar a lista de desejos</span></button>
+											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>Adicionar para comparar</span></button>
+											<button class='quick-view'><i class='fa fa-eye'></i><span class='tooltipp'>Olhada rápida</span></button>
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Adicionar ao carrinho</button>
 									</div>
 								</div>
                                
@@ -413,7 +413,7 @@
 				<div class="row">
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Mais vendido</h4>
 							<div class="section-nav">
 								<div id="slick-nav-3" class="products-slick-nav"></div>
 							</div>
@@ -434,9 +434,9 @@
 										<img src="./img/product01.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -447,9 +447,9 @@
 										<img src="./img/product02.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -460,9 +460,9 @@
 										<img src="./img/product03.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -472,7 +472,7 @@
 
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Mais vendido</h4>
 							<div class="section-nav">
 								<div id="slick-nav-4" class="products-slick-nav"></div>
 							</div>
@@ -487,8 +487,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -499,9 +499,9 @@
 										<img src="./img/product05.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -512,9 +512,9 @@
 										<img src="./img/product06.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categori</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -527,9 +527,9 @@
 										<img src="./img/product07.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -540,9 +540,9 @@
 										<img src="./img/product08.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -553,9 +553,9 @@
 										<img src="./img/product09.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -569,7 +569,7 @@
 
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Mais vendido</h4>
 							<div class="section-nav">
 								<div id="slick-nav-5" class="products-slick-nav"></div>
 							</div>
@@ -583,9 +583,9 @@
 										<img src="./img/product01.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -596,9 +596,9 @@
 										<img src="./img/product02.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -609,9 +609,9 @@
 										<img src="./img/product03.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O  nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -624,9 +624,9 @@
 										<img src="./img/product04.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -638,9 +638,9 @@
 										<img src="./img/product05.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O  nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -651,9 +651,9 @@
 										<img src="./img/product06.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<p class="product-category">Categoria</p>
+										<h3 class="product-name"><a href="#">O nome do produto vai aqui</a></h3>
+										<h4 class="product-price">R$980.00 <del class="product-old-price">R$990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
